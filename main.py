@@ -22,7 +22,7 @@ names = ['Monilia', 'Sana']
 app = Flask(__name__)
 
 # Path del modelo preentrenado
-MODEL_PATH = 'models/InceptionV3_cocoaClassifier_v2.h5'
+MODEL_PATH = 'models/InceptionV3_cocoaClassifier_v1.h5'
 
 # Cargamos el modelo preentrenado
 model = load_model(MODEL_PATH)
